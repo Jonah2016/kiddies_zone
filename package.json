@@ -2,7 +2,7 @@
   "homepage": "https://jonah2016.github.io/kiddies_zone/",
   "name": "kiddies-adventure-zone",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
