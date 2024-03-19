@@ -16,6 +16,8 @@ function BookDetails() {
 
   const { data: bookData } = useFetchData(apiUrl);
 
+  console.log(apiUrl, bookData);
+
   const heroProperties = {
     banner:
       "https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=2352&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -80,15 +82,6 @@ function BookDetails() {
                   </div>
                 )}
               </div>
-
-              {/* <div className="product-price">
-                 <p className="last-price">
-                  Old Price: <span>$257.00</span>
-                </p>
-                <p className="new-price">
-                  New Price: <span>$249.00 (5%)</span>
-                </p>
-              </div> */}
               <div className="product-detail">
                 <h2 className="font-bold">about this book: </h2>
                 <p>{bookData.description}</p>
