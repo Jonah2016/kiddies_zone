@@ -10,7 +10,6 @@ function Hero(props) {
     <div className="md:flex md:flex-row sm:flex-col">
       <div className=" md:w-[70%] sm:w-[100%]">
         <img
-          loading="lazy"
           className="h-[22rem] md:h-[36rem] w-full object-cover"
           src={heroImg}
           alt="hero"

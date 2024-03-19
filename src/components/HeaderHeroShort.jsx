@@ -14,7 +14,6 @@ function HeaderHeroShort(props) {
     <div className="md:flex md:flex-row sm:flex-col">
       <div className="w-[100%]">
         <img
-          loading="lazy"
           className="h-[16rem] md:h-[25rem] w-screen object-cover"
           src={banner}
           alt="hero"
