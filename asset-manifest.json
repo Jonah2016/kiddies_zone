@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kiddies_zone/static/css/main.6189b116.css",
-    "main.js": "/kiddies_zone/static/js/main.24b87814.js",
+    "main.css": "/kiddies_zone/static/css/main.03f95e36.css",
+    "main.js": "/kiddies_zone/static/js/main.0a2f4046.js",
     "static/media/logo1.jpeg": "/kiddies_zone/static/media/logo1.b45075944a16c69b218b.jpeg",
     "index.html": "/kiddies_zone/index.html",
-    "main.6189b116.css.map": "/kiddies_zone/static/css/main.6189b116.css.map",
-    "main.24b87814.js.map": "/kiddies_zone/static/js/main.24b87814.js.map"
+    "main.03f95e36.css.map": "/kiddies_zone/static/css/main.03f95e36.css.map",
+    "main.0a2f4046.js.map": "/kiddies_zone/static/js/main.0a2f4046.js.map"
   },
   "entrypoints": [
-    "static/css/main.6189b116.css",
-    "static/js/main.24b87814.js"
+    "static/css/main.03f95e36.css",
+    "static/js/main.0a2f4046.js"
   ]
 }
