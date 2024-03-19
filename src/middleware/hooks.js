@@ -12,7 +12,7 @@ function useFetchData(url) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(url);
+        const response = await fetch(url, { cors: "no-cors" });
         const data = await response.json();
         setData(data);
       } catch (error) {
