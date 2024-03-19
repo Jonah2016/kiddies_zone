@@ -11,9 +11,9 @@ import HeaderHeroShort from "../../components/HeaderHeroShort";
 function EventDetails() {
   const { id } = useParams(); // Access the ID parameter
 
-  const { data: eventData } = useFetchData(
-    process.env.REACT_APP_EVENT_API_URL + id
-  );
+  const apiUrl = process.env.REACT_APP_EVENT_API_URL + id;
+
+  const { data: eventData } = useFetchData(apiUrl);
 
   const heroProperties = {
     banner:

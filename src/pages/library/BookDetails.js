@@ -12,7 +12,9 @@ import HeaderHeroShort from "../../components/HeaderHeroShort";
 function BookDetails() {
   const { id } = useParams(); // Access the ID parameter
 
-  const { data: bookData } = useFetchData(process.env.REACT_APP_BOOKS_URL + id);
+  const apiUrl = process.env.REACT_APP_BOOKS_API_URL + id;
+
+  const { data: bookData } = useFetchData(apiUrl);
 
   const heroProperties = {
     banner:

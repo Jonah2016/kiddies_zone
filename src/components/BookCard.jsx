@@ -25,7 +25,7 @@ function BookCard({ props }) {
         </div>
         <div className="descp">
           <h2 className="book-name">
-            {/* <Link to={`${baseUrl}${process.env.REACT_APP_BOOKS_URL}/${_id}`}> */}
+            {/* <Link to={`${baseUrl}${process.env.REACT_APP_BOOKS_API_URL}/${_id}`}> */}
             {title}
             {/* </Link> */}
           </h2>
