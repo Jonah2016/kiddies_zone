@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jonah2016.github.io/kiddies_zone/",
+  "homepage": "https://jonah2016.github.io/kiddies_zone",
   "name": "kiddies-adventure-zone",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -f",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
