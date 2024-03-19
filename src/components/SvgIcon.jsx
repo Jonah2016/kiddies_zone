@@ -19,7 +19,7 @@ const SvgIcon = ({ svgData, fillColor }) => {
     <svg
       fill={fillColor}
       viewBox="0 0 24 24"
-      strokeWidth="1"
+      stroke-width="1"
       stroke="currentColor"
       className="h-14 w-14"
       dangerouslySetInnerHTML={{ __html: svgJsx }}

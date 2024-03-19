@@ -1,4 +1,7 @@
 import React from "react";
+// import { COLORS } from "../assets/theme/theme";
+// import { AiOutlineArrowRight } from "react-icons/ai";
+// import { Link } from "react-router-dom";
 import styles from "../assets/css/custom.module.css";
 import "./NormalCardTwo.css";
 import { Link } from "react-router-dom";

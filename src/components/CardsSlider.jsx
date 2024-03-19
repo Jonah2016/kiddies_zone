@@ -31,8 +31,9 @@ function CardsSlider(props) {
             <div className={`h-[${slideImage.h}] w-[${slideImage.w}]`}>
               <img
                 src={item.image}
+                loading="lazy"
                 className={`aspect-square rounded-t-lg h-full w-full object-cover`}
-                alt={item.title}
+                alt="Skyscrapers"
               />
             </div>
             <div className="py-6 ">
@@ -99,13 +100,13 @@ function CardsSlider(props) {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth="1.5"
+            stroke-width="1.5"
             stroke="currentColor"
             className="w-5 h-5 group-active:-translate-x-2 transition-all duration-200 ease-linear"
           >
             <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke-linecap="round"
+              stroke-linejoin="round"
               d="M15.75 19.5L8.25 12l7.5-7.5"
             />
           </svg>
@@ -121,13 +122,13 @@ function CardsSlider(props) {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth="1.5"
+            stroke-width="1.5"
             stroke="currentColor"
             className="w-5 h-5 group-active:translate-x-2 transition-all duration-200 ease-linear"
           >
             <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke-linecap="round"
+              stroke-linejoin="round"
               d="M8.25 4.5l7.5 7.5-7.5 7.5"
             />
           </svg>
